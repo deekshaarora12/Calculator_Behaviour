@@ -42,7 +42,7 @@ And I press "divide"
 And I type in "second number"
 And I press "equals"
 
-Then I see "different results when numbers are interchanged"
+Then I see "different results when numbers interchanges"
 
 Scenario: Division when both operands are 0
 
@@ -66,7 +66,7 @@ And I press "equals"
 
 Then I see "divided number and two digits of precision" as a result
 
-Scenario: Multiple times "/" is pressed
+Scenario: More than one time times "/" is pressed
 
 Given The calculator is on
 
@@ -74,7 +74,7 @@ When I press "divide" more than one time
 
 Then I see "one divide one time" as a result
 
-Scenario: Interleaving of multiple operators
+Scenario: Interleaving of more than one operators
 
 Given The calculator is on
 
