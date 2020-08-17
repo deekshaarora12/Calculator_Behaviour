@@ -90,7 +90,7 @@ And I press "equals"
 
 Then I see the "four digit number followed by letter" as the result
 
-Scenario: 6-* is provided as input
+Scenario: 6-* is input
 
 Given The calculator is on
 
