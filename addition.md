@@ -35,9 +35,9 @@ And I press "equals"
 
 Then I see the "added number" as the result
 
-Scenario: Addition of +ve and -ve number
+Scenario: Addition of positive number and negative number
 
-Given Two numbers one +ve and other -ve
+Given Two numbers one positive and other negative
 
 When  The calculator is turned on
 And I type in "negative number"
