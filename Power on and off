@@ -1,0 +1,17 @@
+# PowerOnandoff
+
+Scenario: Switch on the calculator
+
+Given The calculator is off
+
+When I press "on/off button"
+
+Then screen sets to "zero"
+
+Scenario: Switch off the calculator
+
+Given The calculator is on and screen displays either "Zero" or previous calculations
+
+When I press "on/off"
+
+Then I see screen sets to no display
