@@ -139,7 +139,7 @@ Given The calculator is on
 
 And I press "multiply button multiple times"
 
-Then I see the "multiply button single occurence" as the result
+Then I see the "multiply button single occurrence" as the result
 
 Scenario: Interleaving operators (Press *, then press /, then press +)
 
