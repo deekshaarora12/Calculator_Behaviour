@@ -66,7 +66,7 @@ And I press "equals"
 
 Then I see "divided number and two digits of precision" as a result
 
-Scenario: More than one time times "/" is pressed
+Scenario: Press '/' more than one time 
 
 Given The calculator is on
 
@@ -105,7 +105,7 @@ And I press "equals"
 
 Then I see "divided number and two digits of precision" as a result
 
-Scenario: Division of multiple numbers
+Scenario: Division of more than one numbers
 
 Given The calculator is on
 
