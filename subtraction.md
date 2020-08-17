@@ -1,4 +1,4 @@
-# Addition
+# Subtraction
 
 Scenario: subtraction of two positive numbers and first is greater than the second
 
