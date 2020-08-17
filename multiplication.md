@@ -1,3 +1,5 @@
+# Multiplication
+
 Scenario: Result overflow
 
 Given The calculator is on and a suffix table
@@ -143,7 +145,7 @@ Scenario: Interleaving operators (Press *, then press /, then press +)
 
 Given The calculator is on
 
-When I press "multiply" 
+When I press "multiply"
 And I press "divide"  
 And I press "plus"
 
@@ -153,6 +155,6 @@ Scenario: Decimal value capping
 
 Given The calculator is on
 
-When I type in "ten digit decimal number" 
+When I type in "ten digit decimal number"
 
 Then I see the "I cannot add more digits"
