@@ -133,11 +133,11 @@ And I press "equals"
 
 Then I see the "input out of range" as the result
 
-Scenario: Pressing "multiply button" many times
+Scenario: Pressing "multiply button" more than one time
 
 Given The calculator is on
 
-And I press "multiply button multiple times"
+And I press "multiply button more than one time"
 
 Then I see the "multiply button single occurrence" as the result
 
