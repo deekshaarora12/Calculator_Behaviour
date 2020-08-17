@@ -63,11 +63,11 @@ Scenario: Typing operator more than once
 
 Given one number and more than one operator
 
-When  The calculator is turned on 
+When The calculator is turned on
 And I type in "number"
 And I press "plus"
 And I type in "positive number"
-And I press "equals" 
+And I press "equals"
 
 Then I see the "added number" as the result
 
@@ -75,7 +75,7 @@ Scenario: Addition of more than 2 numbers
 
 Given more than two numbers
 
-When  The calculator is turned on 
+When The calculator is turned on
 And I type in "number"
 And I press "plus"
 And I type in "another number"
@@ -112,7 +112,7 @@ Then I see the "invalid input" as a result
 
 Scenario: Identity operation
 
-Given two numbers 
+Given two numbers
 
 When The calculator is turned on
 And I type in "number"
@@ -124,7 +124,7 @@ Then I see the "number" as a result
 
 Scenario: Converse operation
 
-Given two numbers 
+Given two numbers
 
 When The calculator is turned on
 And I type in "number"
