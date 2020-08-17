@@ -2,7 +2,7 @@
 
 Scenario: Addition of two positive numbers
 
-Given The calculator is turned on
+Given The calculator is on
 
 When I type in "positive number"
 And I press "plus"
@@ -15,7 +15,7 @@ Scenario: Addition of two negative numbers
 
 Given Two negative numbers
 
-When  The calculator is turned on
+When  The calculator is on
 And I type in "negative number"
 And I press "plus"
 And I type in "negative number"
@@ -27,7 +27,7 @@ Scenario: Addition of fractions
 
 Given Two fractions
 
-When  The calculator is turned on
+When  The calculator is on
 And I type in "fraction"
 And I press "plus"
 And I type in "fraction"
@@ -39,7 +39,7 @@ Scenario: Addition of positive number and negative number
 
 Given Two numbers one positive and other negative
 
-When  The calculator is turned on
+When  The calculator is on
 And I type in "negative number"
 And I press "plus"
 And I type in "positive number"
@@ -51,7 +51,7 @@ Scenario: Addition of decimals
 
 Given Two numbers in decimal format
 
-When  The calculator is turned on
+When  The calculator is on
 And I type in "decimal number"
 And I press "plus"
 And I type in "decimal number"
@@ -63,7 +63,7 @@ Scenario: Typing operator more than once
 
 Given one number and more than one operator
 
-When The calculator is turned on
+When The calculator is on
 And I type in "number"
 And I press "plus"
 And I type in "positive number"
@@ -75,7 +75,7 @@ Scenario: Addition of more than 2 numbers
 
 Given more than two numbers
 
-When The calculator is turned on
+When The calculator is on
 And I type in "number"
 And I press "plus"
 And I type in "another number"
@@ -89,7 +89,7 @@ Scenario: Adding numbers where the result goes out of range
 
 Given two numbers and a suffix table
 
-When The calculator is turned on
+When The calculator is on
 And I type in "number 1"
 And I press "plus"
 And I type in "number 2"
@@ -101,7 +101,7 @@ Scenario: 6+* is provided as input?
 
 Given a number and two operators
 
-When The calculator is turned on
+When The calculator is on
 And I type in "number"
 And I press "plus"
 And I type in "*"
@@ -113,7 +113,7 @@ Scenario: Identity operation
 
 Given two numbers
 
-When The calculator is turned on
+When The calculator is on
 And I type in "number"
 And I press "plus"
 And I type in "zero"
@@ -125,7 +125,7 @@ Scenario: Converse operation
 
 Given two numbers
 
-When The calculator is turned on
+When The calculator is on
 And I type in "number"
 And I press "plus"
 And I type in "negative of the number"
