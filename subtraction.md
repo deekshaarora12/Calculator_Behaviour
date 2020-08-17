@@ -15,7 +15,7 @@ Scenario: Subtraction of two negative numbers and first number is less than the 
 
 Given The calculator is on
 
-when I type in "first number" 
+when I type in "first number"
 And I press "minus"
 And I type in "second number"
 And I press "equals"
@@ -26,7 +26,7 @@ Scenario: Subtraction of one positive number and negative number
 
 Given The calculator is on
 
-when I type in "positive number" 
+when I type in "positive number"
 And I press "minus"
 And I type in "negative number"
 And I press "equals"
@@ -37,7 +37,7 @@ Scenario: Subtraction of two fractions
 
 Given The calculator is on
 
-when I type in "fraction" 
+when I type in "fraction"
 And I press "minus"
 And I type in "fraction"
 And I press "equals"
@@ -48,7 +48,7 @@ Scenario: Subtraction of two decimals
 
 Given The calculator is on
 
-when I type in "decimal" 
+when I type in "decimal"
 And I press "minus"
 And I type in "decimal"
 And I press "equals"
@@ -59,7 +59,7 @@ Scenario: Typing operator more than once
 
 Given The calculator is on
 
-when I type in "first operator" 
+when I type in "first operator"
 And I press "minus"
 And I type in "second operator"
 And I press "equals"
@@ -70,7 +70,7 @@ Scenario: Subtraction of two more than two numbers
 
 Given The calculator is on
 
-when I type in "first number" 
+when I type in "first number"
 And I press "minus"
 And I type in "second number"
 And I press "minus"
@@ -83,7 +83,7 @@ Scenario: Subtraction of two numbers and the result goes out of range
 
 Given The calculator is on and a suffix table
 
-when I type in "first number" 
+when I type in "first number"
 And I press "minus"
 And I type in "second number"
 And I press "equals"
@@ -94,7 +94,7 @@ Scenario: 6-* is provided as input
 
 Given The calculator is on
 
-when I type in "number" 
+when I type in "number"
 And I press "minus"
 And I type in "*"
 And I press "equals"
@@ -105,7 +105,7 @@ Scenario: Identity Operation
 
 Given The calculator is on
 
-when I type in "number" 
+when I type in "number"
 And I press "minus"
 And I type in "Zero"
 And I press "equals"
@@ -116,7 +116,7 @@ Scenario: Converse Operation
 
 Given The calculator is on
 
-when I type in "zero" 
+when I type in "zero"
 And I press "minus"
 And I type in "negative of a number"
 And I press "equals"
