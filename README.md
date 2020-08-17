@@ -32,7 +32,7 @@ And I press "plus"
 And I type in "fraction"
 And I press "equals" 
 
-Then I see the 
+Then I see the "added fraction" as the result
 
 Scenario: Addition of +ve and -ve number
 
