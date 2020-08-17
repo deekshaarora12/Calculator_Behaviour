@@ -133,7 +133,7 @@ And I press "equals"
 
 Then I see the "input out of range" as the result
 
-Scenario: Pressing "multiply button" multiple times
+Scenario: Pressing "multiply button" many times
 
 Given The calculator is on
 
