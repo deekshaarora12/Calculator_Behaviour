@@ -97,7 +97,6 @@ And I press "equals"
 
 Then I see the "four digit output followed by a letter"
 
-
 Scenario: 6+* is provided as input?
 
 Given a number and two operators
@@ -133,4 +132,3 @@ And I type in "negative of the number"
 And I press "equals"
 
 Then I see the "Zero" as a result
-
