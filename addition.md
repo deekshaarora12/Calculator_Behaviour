@@ -97,7 +97,7 @@ And I press "equals"
 
 Then I see the "four digit output followed by a letter"
 
-Scenario: 6+* is provided as input?
+Scenario: 6+* is input?
 
 Given a number and two operators
 
