@@ -70,7 +70,7 @@ Given The calculator is on
 
 When I type in "number"
 And I press "multiply"
-And I type in "number" 
+And I type in "number"
 And I press "equals"
 
 Then I see the "multiplied number" as the result
@@ -79,9 +79,9 @@ Scenario: Rational multiplication
 
 Given The calculator is on
 
-When I type in "rational number" 
-And I press "multiply" 
-And I type in "rational number" 
+When I type in "rational number"
+And I press "multiply"
+And I type in "rational number"
 And I press "equals"
 
 Then I see the "multiplied rational number" as the result
@@ -90,9 +90,9 @@ Scenario: Decimal & integer multiplication
 
 Given The calculator is on
 
-When I type in "decimal" 
-And I press "multiply" 
-And I type in "integer" 
+When I type in "decimal"
+And I press "multiply"
+And I type in "integer"
 And I press "equals"
 
 Then I see the "multiplied output rounded of to two digit precision" as the result
@@ -101,11 +101,11 @@ Scenario: More than two numbers multiplication
 
 Given The calculator is on
 
-When I type in "first number" 
-And I press "multiply" 
-And I type in "second number" 
-And I press "multiply" 
-And I type in "third" 
+When I type in "first number"
+And I press "multiply"
+And I type in "second number"
+And I press "multiply"
+And I type in "third"
 And I press "equals"
 
 Then I see the "multiplied number" as the result
@@ -113,9 +113,9 @@ Then I see the "multiplied number" as the result
 Scenario: Complex number multiplication
 Given The calculator is on
 
-When I type in "complex number" 
-And I press "multiply" 
-And I type in "complex number" 
+When I type in "complex number"
+And I press "multiply"
+And I type in "complex number"
 And I press "equals"
 
 Then I see the "multiplied output as complex number" as the result
@@ -124,9 +124,9 @@ Scenario: Range of operand exceeds allowed limit
 
 Given The calculator is on
 
-When I type in "first number" 
-And I press "multiply" 
-And I type in "second number" 
+When I type in "first number"
+And I press "multiply"
+And I type in "second number"
 And I press "equals"
 
 Then I see the "input out of range" as the result
@@ -134,8 +134,8 @@ Then I see the "input out of range" as the result
 Scenario: Pressing "multiply button" multiple times
 
 Given The calculator is on
- 
-And I press "multiply button multiple times" 
+
+And I press "multiply button multiple times"
 
 Then I see the "multiply button single occurence" as the result
 
