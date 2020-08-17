@@ -1,6 +1,6 @@
 # Addition
 
-Scenario: subtraction of two positive numbers and first number is greater than the second number
+Scenario: subtraction of two positive numbers and first is greater than the second
 
 Given The calculator is on
 
@@ -11,7 +11,7 @@ And I press "equals"
 
 Then I see the "subtracted number" as the result
 
-Scenario: Subtraction of two negative numbers and first number is less than the second number
+Scenario: Subtraction of two negative numbers and first is less than the second
 
 Given The calculator is on
 
