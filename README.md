@@ -15,8 +15,24 @@ And I press "equals"
 Then I see the "added number" as the result
 
 Scenario: Addition of two negative numbers
+Given Two negative numbers
+when  The calculator in turned on
+And I type in "negative number"
+And I press "plus"
+And I type in "negative number"
+And I press "equals"
+
+Then I see the "added number" as the result
 
 Scenario: Addition of fractions
+Given Two fractions
+when  The calculator in turned on
+And I type in "fraction"
+And I press "plus"
+And I type in "fraction"
+And I press "equals" 
+
+Then I see the 
 
 Scenario: Addition of +ve and -ve number
 
